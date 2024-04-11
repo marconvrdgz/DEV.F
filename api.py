@@ -312,4 +312,4 @@ def get_spotify_data_tempo():
 # ultima linea del file de la API, solo cuando se ejecuta en modo local
 # app.run(debug=True, host='localhost', port=5000)
 if __name__ == "__main__":
-	app.run()
+	api.run()
