@@ -27,7 +27,6 @@
 
 from flask import Flask, jsonify, request
 from pymongo import MongoClient
-import pandas as pd
 import re
 
 app = Flask(__name__)
